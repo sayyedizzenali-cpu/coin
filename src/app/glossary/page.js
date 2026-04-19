@@ -1,5 +1,5 @@
 // src/app/glossary/page.js
-import { GLOSSARY_TERMS, getAllCategories } from '../lib/glossary'
+import { GLOSSARY_TERMS, getAllCategories } from '@/lib/glossary'
 import Link from 'next/link'
 
 export const metadata = {
