@@ -2,7 +2,7 @@
 // Real methodology: historical cycles, analyst consensus, risk factors
 // No fake percentage multipliers
 
-import { getCoinDetail, formatPrice, formatMarketCap } from '../../lib/coingecko'
+import { getCoinDetail, formatPrice, formatMarketCap } from '@/lib/coingecko'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 
