@@ -1,8 +1,8 @@
 // src/app/buy/[coin]/[country]/page.js
 // "How to buy Bitcoin in Pakistan" — 17,000 coins × 50 countries = 850,000+ pages
 
-import { getCoinDetail, getCoinMultiPrice, formatPrice, formatMarketCap } from '../../lib/coingecko'
-import { getCountry, getAllCountrySlugs, COUNTRIES } from '../../lib/countries'
+import { getCoinDetail, getCoinMultiPrice, formatPrice, formatMarketCap } from '@/lib/coingecko'
+import { getCountry, getAllCountrySlugs, COUNTRIES } from '@/lib/countries'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 
