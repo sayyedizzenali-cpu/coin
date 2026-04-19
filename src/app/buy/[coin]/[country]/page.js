@@ -13,14 +13,10 @@ export async function generateStaticParams() {
   // Top 100 coins × 30 countries = 3,000 pages pre-built
   // Others generated on-demand via ISR
 const topCoins = [
-    'bitcoin','ethereum','binancecoin','solana','ripple','cardano',
-    'avalanche-2','polkadot','chainlink','uniswap','litecoin','bitcoin-cash',
-    'stellar','dogecoin','shiba-inu','tron','near','cosmos','algorand','vechain',
-    'internet-computer','filecoin','hedera-hashgraph','aptos','arbitrum',
-    'optimism','polygon','the-sandbox','decentraland','aave'
+    'bitcoin','ethereum','binancecoin','solana','ripple',
+    'cardano','dogecoin','avalanche-2','polkadot','chainlink'
   ]
-  const topCountries = getAllCountrySlugs().slice(0, 30)
-  const topCountries = getAllCountrySlugs().slice(0, 30)
+  const topCountries = getAllCountrySlugs().slice(0, 10)
   const params = []
   for (const coin of topCoins) {
     for (const country of topCountries) {
