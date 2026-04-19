@@ -1,5 +1,5 @@
 // src/app/trending/page.js
-import { getTrending, getTopCoins, formatPrice, formatChange } from '../lib/coingecko'
+import { getTrending, getTopCoins, formatPrice, formatChange } from '@/lib/coingecko'
 import Link from 'next/link'
 
 export const revalidate = 300 // 5 minutes
