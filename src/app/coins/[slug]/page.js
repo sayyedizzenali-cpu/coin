@@ -11,7 +11,7 @@ import Link from 'next/link'
 export const revalidate = 60
 
 export async function generateStaticParams() {
-  const res = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1',{next:{revalidate:86400}})
+  const res = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1',{next:{revalidate:86400}})
   const coins = await res.json().catch(()=>[])
   return (coins||[]).map(c=>({slug:c.id}))
 }
