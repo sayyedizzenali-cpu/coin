@@ -1,7 +1,7 @@
 // src/app/price/[coin]/[currency]/page.js
 // "Bitcoin price in PKR" — 17,000 coins × 12 currencies = 204,000 pages
 
-import { getCoinDetail, getCoinMultiPrice, formatPrice, formatMarketCap, CURRENCIES } from '../../lib/coingecko'
+import { getCoinDetail, getCoinMultiPrice, formatPrice, formatMarketCap, CURRENCIES } from '@/lib/coingecko'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 
