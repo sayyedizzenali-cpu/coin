@@ -1,5 +1,5 @@
 // src/app/compare/[pair]/page.js
-import { getCoinDetail, formatPrice, formatChange, formatMarketCap } from '../../lib/coingecko'
+import { getCoinDetail, formatPrice, formatChange, formatMarketCap } from '@/lib/coingecko'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 
