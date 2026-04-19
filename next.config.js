@@ -6,9 +6,5 @@ const nextConfig = {
       { protocol: 'https', hostname: 'coin-images.coingecko.com' },
     ],
   },
-  experimental: {
-    serverComponentsExternalPackages: [],
-  },
 }
-
 module.exports = nextConfig
