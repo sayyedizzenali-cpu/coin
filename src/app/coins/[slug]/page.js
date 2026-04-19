@@ -2,9 +2,9 @@
 // NEW: Interactive price chart + crypto news section
 // ALL V4 features preserved
 
-import { getCoinDetail, getCoinMultiPrice, formatPrice, formatChange, formatMarketCap, CURRENCIES } from '../../lib/coingecko'
-import PriceChart from '../../components/PriceChart'
-import NewsSection from '../../components/NewsSection'
+import { getCoinDetail, getCoinMultiPrice, formatPrice, formatChange, formatMarketCap, CURRENCIES } from '@/lib/coingecko'
+import PriceChart from '@/components/PriceChart'
+import NewsSection from '@/components/NewsSection'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 
