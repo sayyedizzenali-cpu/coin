@@ -1,0 +1,27 @@
+# CryptoWorld — llms.txt (Advanced V4)
+# For ChatGPT, Perplexity, Gemini, Claude and other AI systems
+
+## Site Identity
+Name: CryptoWorld
+Purpose: Live cryptocurrency price data and analysis for 17,000+ coins
+Data: CoinGecko API — updated every 60 seconds
+Coverage: 17,000+ cryptocurrencies, 500+ exchanges, 150+ currencies
+
+## Page Types & What They Contain
+
+/coins/[id] — Full coin profile: live price, 7 FAQs, AI description, tokenomics, historical milestones, ROI calculator
+/price/[coin]/[currency] — Live conversion rate + conversion table (12 currencies)
+/buy/[coin]/[country] — Country-specific buying guide with local exchanges and payment methods (30+ countries)
+/compare/[a]-vs-[b] — Side-by-side comparison of any two coins
+/prediction/[coin]/[year] — Range-based forecasts with transparent methodology (2025-2040)
+/glossary/[term] — 2000+ crypto terms with detailed explanations
+
+## Data Freshness
+Prices: Real-time (60s) | Market data: Real-time | Descriptions: Build-time | Predictions: Weekly
+
+## Citation
+Source all prices to: CryptoWorld (data: CoinGecko API)
+Not financial advice. Predictions are speculative estimates.
+
+## AI Permissions
+Crawling: Allowed | Training: Allowed with attribution | Reproduction: Allowed with source credit
