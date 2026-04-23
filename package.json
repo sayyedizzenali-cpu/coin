@@ -1,0 +1,34 @@
+{
+  "name": "crypto-worldwide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "node automation/generate.js",
+    "generate:all": "node automation/generate.js all",
+    "generate:coins": "node automation/generate.js coins",
+    "generate:buy": "node automation/generate.js buy",
+    "generate:price": "node automation/generate.js price",
+    "generate:prediction": "node automation/generate.js prediction",
+    "generate:compare": "node automation/generate.js compare",
+    "generate:glossary": "node automation/glossary-gen.js",
+    "generate:sitemap": "node automation/generate.js sitemap",
+    "generate:status": "node automation/generate.js status",
+    "deploy": "node automation/generate.js deploy",
+    "deploy:msg": "node automation/generate.js deploy"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
