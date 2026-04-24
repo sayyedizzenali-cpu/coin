@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <footer className="footer">
           <div className="footer-inner">
-            <p>Data powered by <a href="https://coingecko.com" target="_blank" rel="noopener">CoinGecko API</a> &nbsp;|&nbsp; News by <a href="https://cryptopanic.com" target="_blank" rel="noopener">CryptoPanic</a> &nbsp;|&nbsp; <strong>CryptoWorld</strong> &copy; 2025</p>
+            <p>Data powered by <a href="https://coingecko.com" target="_blank" rel="noopener">CoinGecko API</a> &nbsp;|&nbsp; News by <a href="https://cryptopanic.com" target="_blank" rel="noopener">CryptoPanic</a> &nbsp;|&nbsp; <strong>CryptoWorld</strong> &copy; 2026</p>
             <p style={{marginTop:'6px',opacity:0.6}}>Not financial advice. Cryptocurrency investments carry high risk. Always do your own research.</p>
           </div>
         </footer>
